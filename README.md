@@ -1,23 +1,33 @@
-OAP 2021 Revisited: Correcting Graduate School Statistics with Python
+<div align="center">
+  <h1>🌲 OAP 2021 Revisited</h1>
+  <p><em>Correcting Graduate School Statistics with Python</em></p>
 
-![Bivariate Scatter Plot of Involvement vs Satisfaction](OAP_Bivariate_Scatter.png)
+  <a href="OAP_2021_Revisited.ipynb">
+    <img src="https://img.shields.io/badge/Python-View_Code-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="View Python Code" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="oap_data.csv">
+    <img src="https://img.shields.io/badge/Data-View_Dataset-2ea44f?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="View Dataset" />
+  </a>
+</div>
+
+<br>
 
 In 2021, my graduate school team adapted the Family Leisure Activity Profile to build an Outdoor Activities Profile (OAP) for Liberty University students. While we successfully gathered survey data via Qualtrics, I always felt our original statistical methodology failed to tell the true story of the data.
 
 Our original presentation relied on unsupported One-Way ANOVAs to claim there were no differences between sexes, and we drew questionable conclusions about satisfaction vs. involvement. I built this repository to revisit that data and apply the mature analytical skills I have today.
 
-The Revision Project:
+### 🛠️ The Revision Project
 
-- Data Cleaning: Rebuilt the messy Qualtrics dataset using Pandas and NumPy.
+* **Data Cleaning:** Rebuilt the messy Qualtrics dataset using **Pandas** and **NumPy**.
+* **Statistical Correction:** Replaced the flawed ANOVAs with an **Independent T-Test** via **SciPy** for accurate gender comparisons.
+* **Bivariate Analysis:** Shifted from purely descriptive claims to a formal **Pearson correlation** to prove the relationship between student involvement and satisfaction.
+* **Visualization:** Upgraded the visual storytelling using **Seaborn** and **Matplotlib**.
 
-- Statistical Correction: Replaced the flawed ANOVAs with an Independent T-Test via SciPy for accurate gender comparisons.
+<br>
 
-- Bivariate Analysis: Shifted from purely descriptive claims to a formal Pearson correlation to prove the relationship between student involvement and satisfaction.
-
-- Visualization: Upgraded the visual storytelling using Seaborn and Matplotlib.
-
-[Click here to view my full Python Data Analysis](OAP_2021-Revisited.ipynb-Colab.pdf)
-
-[Click here to view the raw survey dataset](oap_data.csv)
+<div align="center">
+  <img src="name_of_your_image_file.png" alt="Bivariate Scatter Plot of Involvement vs Satisfaction" width="750"/>
+</div>
 
 
