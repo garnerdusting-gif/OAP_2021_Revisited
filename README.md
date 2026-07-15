@@ -1,3 +1,16 @@
+<style>
+  /* This changes the background of the live GitHub Page */
+  body {
+    background: linear-gradient(135deg, #d4fc79 0%, #ffffff 100%) !important;
+    background-attachment: fixed !important;
+  }
+  
+  /* This ensures your text stays readable over the gradient */
+  .markdown-body {
+    background-color: transparent !important;
+  }
+</style>
+
 <div align="center">
   <h1>🌲 OAP 2021 Revisited</h1>
   <p><em>Correcting Graduate School Statistics with Python</em></p>
