@@ -15,3 +15,5 @@ The Revision Project:
 -Visualization: Upgraded the visual storytelling using Seaborn and Matplotlib.
 
 [Click here to view my full Python Data Analysis] (OAP_2021-Revisited.ipynb)
+[Click here to view the raw survey dataset](oap_data.csv)
+![Bivariate Scatter Plot of Involvement vs Satisfaction](name_of_your_image_file.png)
