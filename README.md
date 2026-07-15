@@ -5,7 +5,11 @@ In 2021, my graduate school team adapted the Family Leisure Activity Profile to 
 Our original presentation relied on unsupported One-Way ANOVAs to claim there were no differences between sexes, and we drew questionable conclusions about satisfaction vs. involvement. I built this repository to revisit that data and apply the mature analytical skills I have today.
 
 The Revision Project:
-Data Cleaning: Rebuilt the messy Qualtrics dataset using Pandas and NumPy.
-Statistical Correction: Replaced the flawed ANOVAs with an Independent T-Test via SciPy for accurate gender comparisons.
-Bivariate Analysis: Shifted from purely descriptive claims to a formal Pearson correlation to prove the relationship between student involvement and satisfaction.
-Visualization: Upgraded the visual storytelling using Seaborn and Matplotlib.
+
+-Data Cleaning: Rebuilt the messy Qualtrics dataset using Pandas and NumPy.
+
+-Statistical Correction: Replaced the flawed ANOVAs with an Independent T-Test via SciPy for accurate gender comparisons.
+
+-Bivariate Analysis: Shifted from purely descriptive claims to a formal Pearson correlation to prove the relationship between student involvement and satisfaction.
+
+-Visualization: Upgraded the visual storytelling using Seaborn and Matplotlib.
